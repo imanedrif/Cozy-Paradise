@@ -1,0 +1,2 @@
+export const heroTitle = 'Elevate Your Home with the Tranquil Beauty of Interior Plants'
+export const heroSubtitle = 'Discover your ideal home oasis with our expert plant selection and styling services'
