@@ -9,6 +9,9 @@ module.exports = {
         fontGray: "#828282",
         overlay: "rgba(0, 0, 0, 0.30)",
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans'],
+      },
       screens: {
         xs: "550px",
         md: "850px",
