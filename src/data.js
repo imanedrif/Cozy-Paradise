@@ -1,6 +1,9 @@
 import shippingIcon from "./assets/shipping.svg"
 import paymentIcon from "./assets/payment.svg"
 import supportIcon from "./assets/support.svg"
+import productOneIcon from './assets/product-one.svg'
+import productTwoIcon from './assets/product-two.svg'
+import productThreeIcon from './assets/product-three.svg'
 
 
 export const heroTitle = 'Elevate Your Home with the Tranquil Beauty of Interior Plants'
@@ -22,4 +25,25 @@ export const services = [
         subtitle :"Don't hesitate to contact us",
         icon :supportIcon
     },
+]
+
+export const productsTitle = "Best Selling Products"
+export const ProductsBtnText = "See Colection"
+
+export const products = [
+    {
+        title :"Golden Pothos",
+        price :"$65.99",
+        img:productOneIcon
+    },
+    {
+        title :"Rubber Plant",
+        price :"$75.00",
+        img:productTwoIcon
+    },
+    {
+        title :"Cast Iron Plant",
+        price :"$88.50",
+        img:productThreeIcon
+    }
 ]
