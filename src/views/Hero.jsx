@@ -61,7 +61,7 @@ export const Hero = () => {
             <img src={Search} alt="" className='absolute top-2/4 -translate-y-2/4 right-3 h-8 w-8 cursor-pointer ' />
             </div>
         </FadeIn>
-        <div className='absolute h-[50px] xs:h-[150px] bottom-0 w-full bg-[linear-gradient(180deg,_#ffffff00_0%,_#fff_200%)] '/>
+        <div className='absolute h-[50px] xs:h-[150px] bottom-0 w-full bg-[linear-gradient(180deg,_#ffffff00_0%,_#fff_95%)] '/>
     </div>
   )
 }
