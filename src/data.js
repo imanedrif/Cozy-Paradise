@@ -28,7 +28,7 @@ export const services = [
 ]
 
 export const productsTitle = "Best Selling Products"
-export const ProductsBtnText = "See Colection"
+export const ProductsBtnText = "See Collection"
 
 export const products = [
     {
