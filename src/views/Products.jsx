@@ -44,6 +44,10 @@ export const Products = () => {
                     </FadeIn>
                 ))}
             </div>
+                <hr className='' />
+                <div>
+                    buy now
+                </div>
         </div>
     )
 }
