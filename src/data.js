@@ -43,7 +43,7 @@ export const products = [
     },
     {
         title :"Cast Iron Plant",
-        price :"$88.50",
+        price :"$80.50",
         img:productThreeIcon
     }
 ]
