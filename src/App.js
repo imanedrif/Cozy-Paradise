@@ -2,6 +2,7 @@ import './App.css';
 import { Hero } from './views/Hero';
 import { Services } from './views/Services';
 import { Products } from './views/Products';
+import { Reference } from './views/Reference';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero/>
       <Services/>
       <Products/>
+      <Reference/>
     </>
   );
 }

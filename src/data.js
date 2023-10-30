@@ -47,3 +47,6 @@ export const products = [
         img:productThreeIcon
     }
 ]
+
+export const referencesTitle = "Interior Plants Reference"
+export const referencesSubtitle = "Make your home cozy with refreshing plants"
