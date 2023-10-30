@@ -2,7 +2,7 @@
 import { Link } from "react-scroll";
 
 const NavLink = ({ children, to, offset = -50, mobileMenu = false }) => {
-  const className = mobileMenu ? "text-lg text-black hover:text-white cursor-pointer hover:bg-[linear-gradient(90deg,_#CEAE98_16%,_#fff_120%)] w-full text-center rounded"
+  const className = mobileMenu ? "text-lg text-black hover:text-white cursor-pointer hover:bg-[linear-gradient(90deg,_#22407C_16.7%,_#9F7A64_91.4%)] py-0.5 w-full text-center rounded"
   :"text-lg lg:text-xl text-white cursor-pointer hover:bg-[linear-gradient(90deg,_#CEAE98_6.02%,_#FFF_100%)] hover:bg-clip-text hover:text-transparent"
 
   return (

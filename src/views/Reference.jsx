@@ -13,8 +13,8 @@ export const Reference = () => {
                 {referencesTitle}
             </h1>
         </FadeIn>
-        <FadeIn delay={0.2} direction="down">
-            <h5 className='text-center font-light text-[#4F4F4F] text-lg xs:text-xl mb-12'>
+        <FadeIn delay={0.4} direction="down">
+            <h5 className='text-center text-[#4F4F4F] text-lg xs:text-xl mb-12'>
                 {referencesSubtitle}
             </h5>
         </FadeIn>

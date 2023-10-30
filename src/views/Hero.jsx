@@ -36,12 +36,12 @@ export const Hero = () => {
             />
             <div className={`block md:hidden w-full fixed ${!ShowMobileMenu ? "-top-[410px]":"top-0"} left-0 bg-[#B8C4DA] h-[410px] transition-all duration-[800ms] shadow-xl z-10 py-8 px-12 rounded-b-xl`}>
                 <AiOutlineClose size={25} className='absolute top-5 right-5 cursor-pointer' onClick={()=>setShowMobileMenu(false)}/>
-                <ul className='pt-[60px] flex flex-col items-center gap-8'>
+                <ul className='pt-[40px] flex flex-col items-center gap-8'>
                 <NavLink to="services" mobileMenu>Services</NavLink>
                 <NavLink to="products" mobileMenu>Shop</NavLink>
                 <NavLink to="references" mobileMenu>References</NavLink>
                 <NavLink to="care" mobileMenu>Care</NavLink>
-                <img src={cart} alt="" className='mt-8 mx-auto cursor-pointer'/>
+                <img src={cart} alt="" className=' mt-2 mx-auto cursor-pointer'/>
                 </ul>
             </div>
         </div>
