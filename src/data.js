@@ -4,6 +4,10 @@ import supportIcon from "./assets/support.svg"
 import productOneIcon from './assets/product-one.svg'
 import productTwoIcon from './assets/product-two.svg'
 import productThreeIcon from './assets/product-three.svg'
+import waterIcon from './assets/water-icon.svg'
+import temperatureIcon from './assets/temparature-icon.svg'
+import sunIcon from './assets/sun-icon.svg'
+import plantIcon from './assets/plants-con.svg'
 
 
 export const heroTitle = 'Elevate Your Home with the Tranquil Beauty of Interior Plants'
@@ -50,3 +54,30 @@ export const products = [
 
 export const referencesTitle = "Interior Plants Reference"
 export const referencesSubtitle = "Make your home cozy with refreshing plants"
+
+export const careTitle = "How to care for plants"
+export const careSubtitle = "Take care of plants with all your heart"
+
+
+export const care = [
+    {
+        title :"Don't water too often",
+        subtitle :"Watering ornamental houseplants does not have to be done every day.",
+        img:waterIcon
+    },
+    {
+        title :"Fertilize regularly",
+        subtitle :"The nutrients most indoor houseplants need are nitrogen for balance and potassium for stem strength.",
+        img:temperatureIcon
+    },
+    {
+        title :"Adjust Lighting",
+        subtitle :"When caring for houseplants, make sure the room temperature is neither too cold nor too hot.",
+        img:sunIcon
+    },
+    {
+        title :"Choose the right container",
+        subtitle :"Houseplants will need different containers depending on their type and size.",
+        img:plantIcon
+    },
+]
